@@ -3,7 +3,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
-  max-width: 930px;
+  max-width: 982px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -692,6 +692,7 @@
   text-align: center;
   margin-bottom: 16px;
   letter-spacing: -1px;
+  height: 7em;
 }
 
 #es-maybelline.es-maybelline .es-cross__link {
@@ -728,13 +729,7 @@
   padding: 20px 16px;
 }
 
-@media screen and (min-width: 1360px) {
-  #es-maybelline.es-maybelline .es-kv__title {
-    font-size: 53px;
-  }
-  #es-maybelline.es-maybelline .es-kv__title span {
-    font-size: 53px;
-  }
+@media screen and (min-width: 561px) {
   #es-maybelline.es-maybelline .es-kv__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -771,7 +766,16 @@
   }
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 982px) {
+  #es-maybelline.es-maybelline .es-kv__title {
+    font-size: 53px;
+  }
+  #es-maybelline.es-maybelline .es-kv__title span {
+    font-size: 53px;
+  }
+}
+
+@media screen and (min-width: 561px) {
   #es-maybelline.es-maybelline .es-kv {
     padding-top: 37px;
     position: relative;
@@ -789,38 +793,6 @@
   #es-maybelline.es-maybelline .es-kv__info {
     top: 58px;
   }
-  #es-maybelline.es-maybelline .es-benefits {
-    padding: 16px 0;
-    margin-bottom: 0;
-  }
-  #es-maybelline.es-maybelline .es-benefits__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: row-reverse;
-            flex-flow: row-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 0;
-  }
-  #es-maybelline.es-maybelline .es-benefits__image {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    padding: 0;
-  }
-  #es-maybelline.es-maybelline .es-benefits__content {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    margin-right: -277px;
-    padding-left: 37px;
-    -ms-flex-positive: 1;
-        flex-grow: 1;
-  }
   #es-maybelline.es-maybelline .es-banner__img {
     display: none;
   }
@@ -834,7 +806,6 @@
     left: 37px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    font-size: 65px;
   }
   #es-maybelline.es-maybelline .es-features__img {
     -webkit-transition: opacity 0.3s;
@@ -868,6 +839,78 @@
   }
   #es-maybelline.es-maybelline .es-cross__single:hover .es-cross__link {
     color: #fc2561;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #es-maybelline.es-maybelline .es-benefits {
+    padding: 16px 0;
+    margin-bottom: 0;
+  }
+  #es-maybelline.es-maybelline .es-benefits__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0;
+  }
+  #es-maybelline.es-maybelline .es-benefits__image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0;
+  }
+  #es-maybelline.es-maybelline .es-benefits__content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-right: -277px;
+    padding-left: 37px;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+  }
+  #es-maybelline.es-maybelline .es-benefits__item:nth-child(2) .es-benefits__text {
+    width: 100%;
+    max-width: 249px;
+  }
+
+  #es-maybelline.es-maybelline .es-benefits__item:nth-child(3) .es-benefits__text {
+    width: 100%;
+    max-width: 228px;
+  }
+
+  #es-maybelline.es-maybelline .es-benefits__item:nth-child(4) .es-benefits__text {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  #es-maybelline.es-maybelline .es-banner__text {
+    font-size: 65px;
+  }
+
+}
+
+@media screen and (min-width: 982px) {
+
+  #es-maybelline.es-maybelline .es-benefits__item:nth-child(2) .es-benefits__text {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  #es-maybelline.es-maybelline .es-benefits__item:nth-child(3) .es-benefits__text {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #es-maybelline.es-maybelline .es-benefits__item:nth-child(4) .es-benefits__text {
+    width: 100%;
+    max-width: 480px;
   }
 }
 
